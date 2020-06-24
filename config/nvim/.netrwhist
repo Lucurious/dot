@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/etc/apt/sources.list.d'
+let g:netrw_dirhist_4='/home/testuser/.config/nvim'
+let g:netrw_dirhist_3='/home/testuser/.local/lib/python3.7/site-packages'
+let g:netrw_dirhist_2='/home/testuser/.local/lib/python3.7'
+let g:netrw_dirhist_1='/home/testuser/.local/lib'
+let g:netrw_dirhist_0='/home/testuser/.local'
+let g:netrw_dirhist_9='/home/testuser/.local/bin'
+let g:netrw_dirhist_8='/home/testuser/.local'
+let g:netrw_dirhist_7='/home/testuser'
+let g:netrw_dirhist_6='/home/testuser/scrapyd'

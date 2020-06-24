@@ -1,0 +1,13 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- link:
+    ~/.config:
+      glob: true
+      path: config/*
+      relink: true
+    ~/.bashrc:
+      force: true
+      path: bashrc
