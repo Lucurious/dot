@@ -8,6 +8,9 @@
       glob: true
       path: config/*
       relink: true
-    ~/.bashrc:
-      force: true
+    ~/.bashrc_new:
       path: bashrc
+
+- shell:
+  - mv ~/.bashrc ~/.bashrc_old
+  - mv ~/.bashrc_new ~/.bashrc
