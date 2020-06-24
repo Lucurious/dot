@@ -26,15 +26,11 @@ Plug 'ntpeters/vim-better-whitespace'
 
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
+Plug 'honza/vim-snippets'
+
 Plug 'crusoexia/vim-monokai'
 
 Plug 'sheerun/vim-polyglot'
-
-Plug 'miyakogi/vim-virtualenv'
-
-Plug 'easymotion/vim-easymotion'
-
-Plug 'yggdroot/indentline'
 
 call plug#end()
 filetype plugin indent on
@@ -65,79 +61,67 @@ nnoremap <space> za
 
 set autoindent
 
-py3 << EOF
-import os
-import sys
-if 'VIRTUAL_ENV' in os.environ:
-    project_base_dir = os.environ['VIRTUAL_ENV']
-    activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
-    exec(compile(open(activate_this, "rb").read(), activate_this, 'exec'), dict(__file__=activate_this))
-    #only for python2: execfile(activate_this, dict(__file__=activate_this))
-EOF
+"py3 << EOF
+"import os
+"import sys
+"if 'VIRTUAL_ENV' in os.environ:
+"    project_base_dir = os.environ['VIRTUAL_ENV']
+"    activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
+"    exec(compile(open(activate_this, "rb").read(), activate_this, 'exec'), dict(__file__=activate_this))
+"    #only for python2: execfile(activate_this, dict(__file__=activate_this))
+"EOF
 
 let g:user_emmet_leader_key=','
 
 autocmd BufReadPost *.tex command Pdf write %:t | silent execute '!pdflatex %:t' | redraw!
 
-"Coc configuration
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
-set updatetime=300
-set shortmess+=c
-set signcolumn=yes
-
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-
-function! s:check_back_space() abort
-      let col = col('.') - 1
-        return !col || getline('.')[col - 1]  =~# '\s'
-endfunction
-
-inoremap <silent><expr> <c-space> coc#refresh()
-inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-nmap <silent> [c <Plug>(coc-diagnostic-prev)
-nmap <silent> ]c <Plug>(coc-diagnostic-next)
-
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-
-nnoremap <silent> K :call <SID>show_documentation()<CR>
-
-function! s:show_documentation()
-    if (index(['vim','help'], &filetype) >= 0)
-        execute 'h '.expand('<cword>')
-    else
-        call CocAction('doHover')
-    endif
-endfunction
-
-autocmd CursorHold * silent call CocActionAsync('highlight')
+source ~/.config/nvim/coc.vim
+""Coc configuration
+"set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+"set updatetime=300
+"set shortmess+=c
+"set signcolumn=yes
+"
+"inoremap <silent><expr> <TAB>
+"      \ pumvisible() ? "\<C-n>" :
+"      \ <SID>check_back_space() ? "\<TAB>" :
+"      \ coc#refresh()
+"inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+"
+"function! s:check_back_space() abort
+"      let col = col('.') - 1
+"        return !col || getline('.')[col - 1]  =~# '\s'
+"endfunction
+"
+"inoremap <silent><expr> <c-space> coc#refresh()
+"inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+"nmap <silent> [c <Plug>(coc-diagnostic-prev)
+"nmap <silent> ]c <Plug>(coc-diagnostic-next)
+"
+"nmap <silent> gd <Plug>(coc-definition)
+"nmap <silent> gy <Plug>(coc-type-definition)
+"nmap <silent> gi <Plug>(coc-implementation)
+"nmap <silent> gr <Plug>(coc-references)
+"
+"nnoremap <silent> K :call <SID>show_documentation()<CR>
+"
+"function! s:show_documentation()
+"    if (index(['vim','help'], &filetype) >= 0)
+"        execute 'h '.expand('<cword>')
+"    else
+"        call CocAction('doHover')
+"    endif
+"endfunction
+"
+"autocmd CursorHold * silent call CocActionAsync('highlight')
 nmap <leader>rn <Plug>(coc-rename)
 
 "NEOMAKE
 call neomake#configure#automake('rw', 1000)
 
+
+nnoremap <CR> :noh<CR><CR>
 set splitbelow
 set splitright
 
-let g:indentLine_char_list = ['|', '¦', '┆', '┊']
-
-nnoremap <CR> :noh<CR><CR>
-
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? coc#_select_confirm() :
-      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-
-function! s:check_back_space() abort
-      let col = col('.') - 1
-        return !col || getline('.')[col - 1]  =~# '\s'
-endfunction
-
-let g:coc_snippet_next = '<tab>'
+tnoremap <Esc> <C-\><C-n>
