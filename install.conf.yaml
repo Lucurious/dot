@@ -14,3 +14,4 @@
 - shell:
   - mv ~/.bashrc ~/.bashrc_old
   - mv ~/.bashrc_new ~/.bashrc
+  - nvim +PlugInstall +qa
