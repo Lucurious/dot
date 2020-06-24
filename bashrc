@@ -117,3 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 alias tmux='tmux -2 -u'
+alias e='nvim'
