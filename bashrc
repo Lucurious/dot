@@ -120,3 +120,6 @@ alias tmux='tmux -2 -u'
 alias e='nvim'
 # To enable alias usage with sudo:
 alias sudo='sudo '
+
+#Rust installed binaries
+PATH=$PATH:/home/luc/.cargo/bin

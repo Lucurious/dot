@@ -13,20 +13,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "2.7.17-final",
+          "raw": "2.7.18-candidate",
           "major": 2,
           "minor": 7,
-          "patch": 17,
+          "patch": 18,
           "prerelease": [
-            "final"
+            "candidate"
           ],
           "build": [],
-          "version": "2.7.17-final"
+          "version": "2.7.18-candidate"
         },
         "sysPrefix": "/usr",
-        "fileHash": "4c919c91d72db6be20646beff682a9b7473d5feac62c22ebbd3de346366e42de59c743976568e6b4e586ee2225d363759ba2e3003b3dffadb76a6602894c05b0"
+        "fileHash": "e65dd3349b2ec9079cad3bc7d0e76179855c1f93ee914f56ed7def4f6353977b38e5135afb89b9d5304fa6323feb4af100dfa9836de39438697d42ca162fcef3"
       },
-      "expiry": 1592678910200
+      "expiry": 1593253566175
     },
     "/usr/bin/python2.v3": {
       "data": {
@@ -38,20 +38,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "2.7.17-final",
+          "raw": "2.7.18-candidate",
           "major": 2,
           "minor": 7,
-          "patch": 17,
+          "patch": 18,
           "prerelease": [
-            "final"
+            "candidate"
           ],
           "build": [],
-          "version": "2.7.17-final"
+          "version": "2.7.18-candidate"
         },
         "sysPrefix": "/usr",
-        "fileHash": "853f78069382271278adeb3a40f15dbe6a31ce65b676cdf505a2c25f900e0f379a5029081c9f9dc17845f469969cb213cf109486c44f6aaf2060314688db9b57"
+        "fileHash": "bdd22ae57b36fded969261af6d5f3890e5464a4d91eb8dfd362d55d441972be195a16edfda6f972fe88d2a8882edf9a3a07dbe2db6a3316b4595b63606304efc"
       },
-      "expiry": 1592678910201
+      "expiry": 1593253566175
     },
     "/usr/bin/python.v3": {
       "data": {
@@ -63,20 +63,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "2.7.17-final",
+          "raw": "2.7.18-candidate",
           "major": 2,
           "minor": 7,
-          "patch": 17,
+          "patch": 18,
           "prerelease": [
-            "final"
+            "candidate"
           ],
           "build": [],
-          "version": "2.7.17-final"
+          "version": "2.7.18-candidate"
         },
         "sysPrefix": "/usr",
-        "fileHash": "904f73dc15a645c9bc36d4d11d5475b5bb43bebbaa792d8e99f9ca76a6689fc2dc779d3044124d0e2e280a454c30e416a6d7c961ab21ba55626a49e1bc386a92"
+        "fileHash": "1f2cf845b0371cd964a356fc3a02c3206a4613216206730ba19212df65308e122a1f425bbddc576e7b4819d67de1323cec872013c331921b4413db5446ff578c"
       },
-      "expiry": 1592678910202
+      "expiry": 1593253566176
     },
     "/usr/bin/python3.8.v3": {
       "data": {
@@ -88,20 +88,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.8.0-final",
+          "raw": "3.8.2-final",
           "major": 3,
           "minor": 8,
-          "patch": 0,
+          "patch": 2,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.8.0-final"
+          "version": "3.8.2-final"
         },
         "sysPrefix": "/usr",
-        "fileHash": "9f063951e688aa772f3b4b9d385b8e5a1353dd4cdd2e250e9c1c4ba90018046b365dc84578f9fdea430f49e0885dff364abd57c3694d5056182b08ffe708babe"
+        "fileHash": "9a14001e903120eb5391940fbc1b2749e449cd7def9bdcd668c45a699ecbf449e5dbb3058eb81a0653f66eacd1f95c95acf6c91c9c076ff290e51ac63cb50f4d"
       },
-      "expiry": 1592678910275
+      "expiry": 1593253566173
     },
     "/usr/bin/python3.7.v3": {
       "data": {
@@ -138,20 +138,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.7.5-final",
+          "raw": "3.8.2-final",
           "major": 3,
-          "minor": 7,
-          "patch": 5,
+          "minor": 8,
+          "patch": 2,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.7.5-final"
+          "version": "3.8.2-final"
         },
         "sysPrefix": "/usr",
-        "fileHash": "36fc764c67c066d2ee9904fecad4a7c9277744b7c7adf378572d19a4b2d8677327d042938b3eb8189def3d29897b618c7b927ef28e8e6e3fa7807c79c2d15069"
+        "fileHash": "5545893f38478369d164ef2dc3b24b2b0af4237c57076729d9972d279b4e8436332fd3953b150f69bb1735caf0a30066d6aef1f3abda5c408904e4f348db4e7e"
       },
-      "expiry": 1592678910199
+      "expiry": 1593253566174
     },
     "/srv/testsite2/bin/python3.8.v3": {
       "data": {
@@ -231,48 +231,48 @@
     "INTERPRETERS_CACHE_v3_CurrentPathService": [
       {
         "architecture": 3,
-        "path": "/usr/bin/python3.7",
+        "path": "/usr/bin/python3.6",
         "version": {
           "options": {
             "loose": false,
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.7.5-final",
+          "raw": "3.6.9-final",
           "major": 3,
-          "minor": 7,
-          "patch": 5,
+          "minor": 6,
+          "patch": 9,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.7.5-final"
+          "version": "3.6.9-final"
         },
         "sysPrefix": "/usr",
-        "fileHash": "f0cf91498c6a8b2d3ec6c4bc857c68144c3dec0e409adcaa582a45a1d7c6e710bf5faa11a5540a9a5070efb8f05c82bea15f3023b7fcec5096323ce1604d0209",
+        "fileHash": "21b74dc55f674eae19b241724f5e006d0b37ea2e1d3181a9c170904f695cea903c2bab9fecb333c21dcd03b0b49b125eadb4eea7722a2d57d75d6a9147565c06",
         "type": "Unknown"
       },
       {
         "architecture": 3,
-        "path": "/srv/testsite2/bin/python3",
+        "path": "/usr/bin/python3",
         "version": {
           "options": {
             "loose": false,
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.8.0-final",
+          "raw": "3.8.2-final",
           "major": 3,
           "minor": 8,
-          "patch": 0,
+          "patch": 2,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.8.0-final"
+          "version": "3.8.2-final"
         },
-        "sysPrefix": "/srv/testsite2",
-        "fileHash": "79b67717c71c3879495c630a563ed2ce2419d32d78d154b80168a19d00a15d43a63d008b6e4f021a4feaae99038768a346b0dbb5ec918fc488b32bf83ad07276",
+        "sysPrefix": "/usr",
+        "fileHash": "5545893f38478369d164ef2dc3b24b2b0af4237c57076729d9972d279b4e8436332fd3953b150f69bb1735caf0a30066d6aef1f3abda5c408904e4f348db4e7e",
         "type": "Unknown"
       },
       {
@@ -284,185 +284,70 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "2.7.17-final",
+          "raw": "2.7.18-candidate",
           "major": 2,
           "minor": 7,
-          "patch": 17,
+          "patch": 18,
           "prerelease": [
-            "final"
+            "candidate"
           ],
           "build": [],
-          "version": "2.7.17-final"
+          "version": "2.7.18-candidate"
         },
         "sysPrefix": "/usr",
-        "fileHash": "853f78069382271278adeb3a40f15dbe6a31ce65b676cdf505a2c25f900e0f379a5029081c9f9dc17845f469969cb213cf109486c44f6aaf2060314688db9b57",
+        "fileHash": "bdd22ae57b36fded969261af6d5f3890e5464a4d91eb8dfd362d55d441972be195a16edfda6f972fe88d2a8882edf9a3a07dbe2db6a3316b4595b63606304efc",
         "type": "Unknown"
       },
       {
         "architecture": 3,
-        "path": "/srv/testsite2/bin/python",
+        "path": "/usr/bin/python",
         "version": {
           "options": {
             "loose": false,
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.8.0-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 0,
+          "raw": "2.7.18-candidate",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
           "prerelease": [
-            "final"
+            "candidate"
           ],
           "build": [],
-          "version": "3.8.0-final"
+          "version": "2.7.18-candidate"
         },
-        "sysPrefix": "/srv/testsite2",
-        "fileHash": "79b67717c71c3879495c630a563ed2ce2419d32d78d154b80168a19d00a15d43a63d008b6e4f021a4feaae99038768a346b0dbb5ec918fc488b32bf83ad07276",
+        "sysPrefix": "/usr",
+        "fileHash": "1f2cf845b0371cd964a356fc3a02c3206a4613216206730ba19212df65308e122a1f425bbddc576e7b4819d67de1323cec872013c331921b4413db5446ff578c",
         "type": "Unknown"
       },
       {
         "architecture": 3,
-        "path": "/srv/testsite2/bin/python",
+        "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3",
         "version": {
           "options": {
             "loose": false,
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.8.0-final",
+          "raw": "3.8.2-final",
           "major": 3,
           "minor": 8,
-          "patch": 0,
+          "patch": 2,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.8.0-final"
+          "version": "3.8.2-final"
         },
-        "sysPrefix": "/srv/testsite2",
-        "fileHash": "79b67717c71c3879495c630a563ed2ce2419d32d78d154b80168a19d00a15d43a63d008b6e4f021a4feaae99038768a346b0dbb5ec918fc488b32bf83ad07276",
+        "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+        "fileHash": "ca043b5f70630c099c37f1f0bb79ebf8e04bf8c00332ac4d17faaee3ef21415ce0c47e7e648f062e0387936db5aefdcb04788d157c2a44803fb08faf7277e540",
         "type": "Unknown"
       }
     ],
-    "InterpreterAutoSeletionRule-currentPath": {
-      "architecture": 3,
-      "path": "/srv/testsite2/bin/python",
-      "version": {
-        "options": {
-          "loose": false,
-          "includePrerelease": false
-        },
-        "loose": false,
-        "raw": "3.8.0-final",
-        "major": 3,
-        "minor": 8,
-        "patch": 0,
-        "prerelease": [
-          "final"
-        ],
-        "build": [],
-        "version": "3.8.0-final"
-      },
-      "sysPrefix": "/srv/testsite2",
-      "fileHash": "79b67717c71c3879495c630a563ed2ce2419d32d78d154b80168a19d00a15d43a63d008b6e4f021a4feaae99038768a346b0dbb5ec918fc488b32bf83ad07276",
-      "type": "Unknown"
-    },
-    "preferredGlobalPyInterpreter": {
-      "architecture": 3,
-      "path": "/srv/testsite2/bin/python",
-      "version": {
-        "options": {
-          "loose": false,
-          "includePrerelease": false
-        },
-        "loose": false,
-        "raw": "3.8.0-final",
-        "major": 3,
-        "minor": 8,
-        "patch": 0,
-        "prerelease": [
-          "final"
-        ],
-        "build": [],
-        "version": "3.8.0-final"
-      },
-      "sysPrefix": "/srv/testsite2",
-      "fileHash": "79b67717c71c3879495c630a563ed2ce2419d32d78d154b80168a19d00a15d43a63d008b6e4f021a4feaae99038768a346b0dbb5ec918fc488b32bf83ad07276",
-      "type": "Unknown"
-    },
     "INTERPRETERS_CACHE_v3_KnownPathsService": [
       {
         "architecture": 3,
-        "path": "/srv/testsite2/bin/python",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.0-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 0,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.0-final"
-        },
-        "sysPrefix": "/srv/testsite2",
-        "fileHash": "79b67717c71c3879495c630a563ed2ce2419d32d78d154b80168a19d00a15d43a63d008b6e4f021a4feaae99038768a346b0dbb5ec918fc488b32bf83ad07276",
-        "type": "Unknown"
-      },
-      {
-        "architecture": 3,
-        "path": "/srv/testsite2/bin/python3",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.0-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 0,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.0-final"
-        },
-        "sysPrefix": "/srv/testsite2",
-        "fileHash": "79b67717c71c3879495c630a563ed2ce2419d32d78d154b80168a19d00a15d43a63d008b6e4f021a4feaae99038768a346b0dbb5ec918fc488b32bf83ad07276",
-        "type": "Unknown"
-      },
-      {
-        "architecture": 3,
-        "path": "/srv/testsite2/bin/python3.8",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.8.0-final",
-          "major": 3,
-          "minor": 8,
-          "patch": 0,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.8.0-final"
-        },
-        "sysPrefix": "/srv/testsite2",
-        "fileHash": "a2716d2d3f74e00e42315fb27330b9a1860f6c244aeb71fe401c22ad1561ffdf90bae8b9f546d3e45f913716095d7e4bc8cf1ff84932efbd180dc695beb25f20",
-        "type": "Unknown"
-      },
-      {
-        "architecture": 3,
         "path": "/usr/bin/python",
         "version": {
           "options": {
@@ -470,18 +355,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "2.7.17-final",
+          "raw": "2.7.18-candidate",
           "major": 2,
           "minor": 7,
-          "patch": 17,
+          "patch": 18,
           "prerelease": [
-            "final"
+            "candidate"
           ],
           "build": [],
-          "version": "2.7.17-final"
+          "version": "2.7.18-candidate"
         },
         "sysPrefix": "/usr",
-        "fileHash": "904f73dc15a645c9bc36d4d11d5475b5bb43bebbaa792d8e99f9ca76a6689fc2dc779d3044124d0e2e280a454c30e416a6d7c961ab21ba55626a49e1bc386a92",
+        "fileHash": "1f2cf845b0371cd964a356fc3a02c3206a4613216206730ba19212df65308e122a1f425bbddc576e7b4819d67de1323cec872013c331921b4413db5446ff578c",
         "type": "Unknown"
       },
       {
@@ -493,18 +378,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "2.7.17-final",
+          "raw": "2.7.18-candidate",
           "major": 2,
           "minor": 7,
-          "patch": 17,
+          "patch": 18,
           "prerelease": [
-            "final"
+            "candidate"
           ],
           "build": [],
-          "version": "2.7.17-final"
+          "version": "2.7.18-candidate"
         },
         "sysPrefix": "/usr",
-        "fileHash": "853f78069382271278adeb3a40f15dbe6a31ce65b676cdf505a2c25f900e0f379a5029081c9f9dc17845f469969cb213cf109486c44f6aaf2060314688db9b57",
+        "fileHash": "bdd22ae57b36fded969261af6d5f3890e5464a4d91eb8dfd362d55d441972be195a16edfda6f972fe88d2a8882edf9a3a07dbe2db6a3316b4595b63606304efc",
         "type": "Unknown"
       },
       {
@@ -516,18 +401,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "2.7.17-final",
+          "raw": "2.7.18-candidate",
           "major": 2,
           "minor": 7,
-          "patch": 17,
+          "patch": 18,
           "prerelease": [
-            "final"
+            "candidate"
           ],
           "build": [],
-          "version": "2.7.17-final"
+          "version": "2.7.18-candidate"
         },
         "sysPrefix": "/usr",
-        "fileHash": "4c919c91d72db6be20646beff682a9b7473d5feac62c22ebbd3de346366e42de59c743976568e6b4e586ee2225d363759ba2e3003b3dffadb76a6602894c05b0",
+        "fileHash": "e65dd3349b2ec9079cad3bc7d0e76179855c1f93ee914f56ed7def4f6353977b38e5135afb89b9d5304fa6323feb4af100dfa9836de39438697d42ca162fcef3",
         "type": "Unknown"
       },
       {
@@ -539,41 +424,41 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.7.5-final",
+          "raw": "3.8.2-final",
           "major": 3,
-          "minor": 7,
-          "patch": 5,
+          "minor": 8,
+          "patch": 2,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.7.5-final"
+          "version": "3.8.2-final"
         },
         "sysPrefix": "/usr",
-        "fileHash": "36fc764c67c066d2ee9904fecad4a7c9277744b7c7adf378572d19a4b2d8677327d042938b3eb8189def3d29897b618c7b927ef28e8e6e3fa7807c79c2d15069",
+        "fileHash": "5545893f38478369d164ef2dc3b24b2b0af4237c57076729d9972d279b4e8436332fd3953b150f69bb1735caf0a30066d6aef1f3abda5c408904e4f348db4e7e",
         "type": "Unknown"
       },
       {
         "architecture": 3,
-        "path": "/usr/bin/python3.7",
+        "path": "/usr/bin/python3.6",
         "version": {
           "options": {
             "loose": false,
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.7.5-final",
+          "raw": "3.6.9-final",
           "major": 3,
-          "minor": 7,
-          "patch": 5,
+          "minor": 6,
+          "patch": 9,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.7.5-final"
+          "version": "3.6.9-final"
         },
         "sysPrefix": "/usr",
-        "fileHash": "f0cf91498c6a8b2d3ec6c4bc857c68144c3dec0e409adcaa582a45a1d7c6e710bf5faa11a5540a9a5070efb8f05c82bea15f3023b7fcec5096323ce1604d0209",
+        "fileHash": "21b74dc55f674eae19b241724f5e006d0b37ea2e1d3181a9c170904f695cea903c2bab9fecb333c21dcd03b0b49b125eadb4eea7722a2d57d75d6a9147565c06",
         "type": "Unknown"
       },
       {
@@ -585,18 +470,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.8.0-final",
+          "raw": "3.8.2-final",
           "major": 3,
           "minor": 8,
-          "patch": 0,
+          "patch": 2,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.8.0-final"
+          "version": "3.8.2-final"
         },
         "sysPrefix": "/usr",
-        "fileHash": "9f063951e688aa772f3b4b9d385b8e5a1353dd4cdd2e250e9c1c4ba90018046b365dc84578f9fdea430f49e0885dff364abd57c3694d5056182b08ffe708babe",
+        "fileHash": "9a14001e903120eb5391940fbc1b2749e449cd7def9bdcd668c45a699ecbf449e5dbb3058eb81a0653f66eacd1f95c95acf6c91c9c076ff290e51ac63cb50f4d",
         "type": "Unknown"
       },
       {
@@ -608,18 +493,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "2.7.17-final",
+          "raw": "2.7.18-candidate",
           "major": 2,
           "minor": 7,
-          "patch": 17,
+          "patch": 18,
           "prerelease": [
-            "final"
+            "candidate"
           ],
           "build": [],
-          "version": "2.7.17-final"
+          "version": "2.7.18-candidate"
         },
         "sysPrefix": "/usr",
-        "fileHash": "904f73dc15a645c9bc36d4d11d5475b5bb43bebbaa792d8e99f9ca76a6689fc2dc779d3044124d0e2e280a454c30e416a6d7c961ab21ba55626a49e1bc386a92",
+        "fileHash": "1f2cf845b0371cd964a356fc3a02c3206a4613216206730ba19212df65308e122a1f425bbddc576e7b4819d67de1323cec872013c331921b4413db5446ff578c",
         "type": "Unknown"
       },
       {
@@ -631,18 +516,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "2.7.17-final",
+          "raw": "2.7.18-candidate",
           "major": 2,
           "minor": 7,
-          "patch": 17,
+          "patch": 18,
           "prerelease": [
-            "final"
+            "candidate"
           ],
           "build": [],
-          "version": "2.7.17-final"
+          "version": "2.7.18-candidate"
         },
         "sysPrefix": "/usr",
-        "fileHash": "853f78069382271278adeb3a40f15dbe6a31ce65b676cdf505a2c25f900e0f379a5029081c9f9dc17845f469969cb213cf109486c44f6aaf2060314688db9b57",
+        "fileHash": "bdd22ae57b36fded969261af6d5f3890e5464a4d91eb8dfd362d55d441972be195a16edfda6f972fe88d2a8882edf9a3a07dbe2db6a3316b4595b63606304efc",
         "type": "Unknown"
       },
       {
@@ -654,18 +539,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "2.7.17-final",
+          "raw": "2.7.18-candidate",
           "major": 2,
           "minor": 7,
-          "patch": 17,
+          "patch": 18,
           "prerelease": [
-            "final"
+            "candidate"
           ],
           "build": [],
-          "version": "2.7.17-final"
+          "version": "2.7.18-candidate"
         },
         "sysPrefix": "/usr",
-        "fileHash": "4c919c91d72db6be20646beff682a9b7473d5feac62c22ebbd3de346366e42de59c743976568e6b4e586ee2225d363759ba2e3003b3dffadb76a6602894c05b0",
+        "fileHash": "e65dd3349b2ec9079cad3bc7d0e76179855c1f93ee914f56ed7def4f6353977b38e5135afb89b9d5304fa6323feb4af100dfa9836de39438697d42ca162fcef3",
         "type": "Unknown"
       },
       {
@@ -677,41 +562,41 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.7.5-final",
+          "raw": "3.8.2-final",
           "major": 3,
-          "minor": 7,
-          "patch": 5,
+          "minor": 8,
+          "patch": 2,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.7.5-final"
+          "version": "3.8.2-final"
         },
         "sysPrefix": "/usr",
-        "fileHash": "36fc764c67c066d2ee9904fecad4a7c9277744b7c7adf378572d19a4b2d8677327d042938b3eb8189def3d29897b618c7b927ef28e8e6e3fa7807c79c2d15069",
+        "fileHash": "5545893f38478369d164ef2dc3b24b2b0af4237c57076729d9972d279b4e8436332fd3953b150f69bb1735caf0a30066d6aef1f3abda5c408904e4f348db4e7e",
         "type": "Unknown"
       },
       {
         "architecture": 3,
-        "path": "/usr/bin/python3.7",
+        "path": "/usr/bin/python3.6",
         "version": {
           "options": {
             "loose": false,
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.7.5-final",
+          "raw": "3.6.9-final",
           "major": 3,
-          "minor": 7,
-          "patch": 5,
+          "minor": 6,
+          "patch": 9,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.7.5-final"
+          "version": "3.6.9-final"
         },
         "sysPrefix": "/usr",
-        "fileHash": "f0cf91498c6a8b2d3ec6c4bc857c68144c3dec0e409adcaa582a45a1d7c6e710bf5faa11a5540a9a5070efb8f05c82bea15f3023b7fcec5096323ce1604d0209",
+        "fileHash": "21b74dc55f674eae19b241724f5e006d0b37ea2e1d3181a9c170904f695cea903c2bab9fecb333c21dcd03b0b49b125eadb4eea7722a2d57d75d6a9147565c06",
         "type": "Unknown"
       },
       {
@@ -723,18 +608,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.8.0-final",
+          "raw": "3.8.2-final",
           "major": 3,
           "minor": 8,
-          "patch": 0,
+          "patch": 2,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.8.0-final"
+          "version": "3.8.2-final"
         },
         "sysPrefix": "/usr",
-        "fileHash": "9f063951e688aa772f3b4b9d385b8e5a1353dd4cdd2e250e9c1c4ba90018046b365dc84578f9fdea430f49e0885dff364abd57c3694d5056182b08ffe708babe",
+        "fileHash": "9a14001e903120eb5391940fbc1b2749e449cd7def9bdcd668c45a699ecbf449e5dbb3058eb81a0653f66eacd1f95c95acf6c91c9c076ff290e51ac63cb50f4d",
         "type": "Unknown"
       }
     ],
@@ -778,17 +663,17 @@
     },
     "/usr/bin/python.interpreter.displayName.v7": {
       "data": {
-        "displayName": "Python 2.7.17 64-bit",
-        "hash": "904f73dc15a645c9bc36d4d11d5475b5bb43bebbaa792d8e99f9ca76a6689fc2dc779d3044124d0e2e280a454c30e416a6d7c961ab21ba55626a49e1bc386a92-2025d8b160cc353257d7a2e46802873e"
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "1f2cf845b0371cd964a356fc3a02c3206a4613216206730ba19212df65308e122a1f425bbddc576e7b4819d67de1323cec872013c331921b4413db5446ff578c-b42fe601bce95179ddc84be133d35104"
       },
-      "expiry": 1592678910291
+      "expiry": 1593253566298
     },
     "/usr/bin/python3.interpreter.displayName.v7": {
       "data": {
-        "displayName": "Python 3.7.5 64-bit",
-        "hash": "36fc764c67c066d2ee9904fecad4a7c9277744b7c7adf378572d19a4b2d8677327d042938b3eb8189def3d29897b618c7b927ef28e8e6e3fa7807c79c2d15069-3b99f88d46fc3e8b75ba527a2f38a8c5"
+        "displayName": "Python 3.8.2 64-bit",
+        "hash": "5545893f38478369d164ef2dc3b24b2b0af4237c57076729d9972d279b4e8436332fd3953b150f69bb1735caf0a30066d6aef1f3abda5c408904e4f348db4e7e-379f2f541d28a9ef63c6e332a82a8208"
       },
-      "expiry": 1592678910293
+      "expiry": 1593253566299
     },
     "/usr/bin/python3.8.interpreter.displayName.v7": {
       "data": {
@@ -799,31 +684,31 @@
     },
     "InterpreterAutoSeletionRule-system": {
       "architecture": 3,
-      "path": "/usr/bin/python3.8",
+      "path": "/usr/bin/python3",
       "version": {
         "options": {
           "loose": false,
           "includePrerelease": false
         },
         "loose": false,
-        "raw": "3.8.0-final",
+        "raw": "3.8.2-final",
         "major": 3,
         "minor": 8,
-        "patch": 0,
+        "patch": 2,
         "prerelease": [
           "final"
         ],
         "build": [],
-        "version": "3.8.0-final"
+        "version": "3.8.2-final"
       },
       "sysPrefix": "/usr",
-      "fileHash": "9f063951e688aa772f3b4b9d385b8e5a1353dd4cdd2e250e9c1c4ba90018046b365dc84578f9fdea430f49e0885dff364abd57c3694d5056182b08ffe708babe",
+      "fileHash": "5545893f38478369d164ef2dc3b24b2b0af4237c57076729d9972d279b4e8436332fd3953b150f69bb1735caf0a30066d6aef1f3abda5c408904e4f348db4e7e",
       "type": "Unknown",
-      "displayName": "Python 3.8.0 64-bit"
+      "displayName": "Python 3.8.2 64-bit"
     },
     "/usr/bin/python.interpreter.Details.v7": {
       "data": {
-        "fileHash": "904f73dc15a645c9bc36d4d11d5475b5bb43bebbaa792d8e99f9ca76a6689fc2dc779d3044124d0e2e280a454c30e416a6d7c961ab21ba55626a49e1bc386a92",
+        "fileHash": "1f2cf845b0371cd964a356fc3a02c3206a4613216206730ba19212df65308e122a1f425bbddc576e7b4819d67de1323cec872013c331921b4413db5446ff578c",
         "info": {
           "architecture": 3,
           "path": "/usr/bin/python",
@@ -833,27 +718,27 @@
               "includePrerelease": false
             },
             "loose": false,
-            "raw": "2.7.17-final",
+            "raw": "2.7.18-candidate",
             "major": 2,
             "minor": 7,
-            "patch": 17,
+            "patch": 18,
             "prerelease": [
-              "final"
+              "candidate"
             ],
             "build": [],
-            "version": "2.7.17-final"
+            "version": "2.7.18-candidate"
           },
           "sysPrefix": "/usr",
-          "fileHash": "904f73dc15a645c9bc36d4d11d5475b5bb43bebbaa792d8e99f9ca76a6689fc2dc779d3044124d0e2e280a454c30e416a6d7c961ab21ba55626a49e1bc386a92",
+          "fileHash": "1f2cf845b0371cd964a356fc3a02c3206a4613216206730ba19212df65308e122a1f425bbddc576e7b4819d67de1323cec872013c331921b4413db5446ff578c",
           "type": "Unknown",
-          "displayName": "Python 2.7.17 64-bit"
+          "displayName": "Python 2.7.18 64-bit"
         }
       },
-      "expiry": 1592678910314
+      "expiry": 1593253566310
     },
     "/usr/bin/python3.interpreter.Details.v7": {
       "data": {
-        "fileHash": "36fc764c67c066d2ee9904fecad4a7c9277744b7c7adf378572d19a4b2d8677327d042938b3eb8189def3d29897b618c7b927ef28e8e6e3fa7807c79c2d15069",
+        "fileHash": "5545893f38478369d164ef2dc3b24b2b0af4237c57076729d9972d279b4e8436332fd3953b150f69bb1735caf0a30066d6aef1f3abda5c408904e4f348db4e7e",
         "info": {
           "architecture": 3,
           "path": "/usr/bin/python3",
@@ -863,23 +748,23 @@
               "includePrerelease": false
             },
             "loose": false,
-            "raw": "3.7.5-final",
+            "raw": "3.8.2-final",
             "major": 3,
-            "minor": 7,
-            "patch": 5,
+            "minor": 8,
+            "patch": 2,
             "prerelease": [
               "final"
             ],
             "build": [],
-            "version": "3.7.5-final"
+            "version": "3.8.2-final"
           },
           "sysPrefix": "/usr",
-          "fileHash": "36fc764c67c066d2ee9904fecad4a7c9277744b7c7adf378572d19a4b2d8677327d042938b3eb8189def3d29897b618c7b927ef28e8e6e3fa7807c79c2d15069",
+          "fileHash": "5545893f38478369d164ef2dc3b24b2b0af4237c57076729d9972d279b4e8436332fd3953b150f69bb1735caf0a30066d6aef1f3abda5c408904e4f348db4e7e",
           "type": "Unknown",
-          "displayName": "Python 3.7.5 64-bit"
+          "displayName": "Python 3.8.2 64-bit"
         }
       },
-      "expiry": 1592678910316
+      "expiry": 1593253566311
     },
     "/usr/bin/python3.8.interpreter.Details.v7": {
       "data": {
@@ -913,29 +798,311 @@
     },
     "InterpreterAutoSeletionRule-cachedInterpreters": {
       "architecture": 3,
-      "path": "/usr/bin/python3.8",
+      "path": "/usr/bin/python3",
       "version": {
         "options": {
           "loose": false,
           "includePrerelease": false
         },
         "loose": false,
-        "raw": "3.8.0-final",
+        "raw": "3.8.2-final",
         "major": 3,
         "minor": 8,
-        "patch": 0,
+        "patch": 2,
         "prerelease": [
           "final"
         ],
         "build": [],
-        "version": "3.8.0-final"
+        "version": "3.8.2-final"
       },
       "sysPrefix": "/usr",
-      "fileHash": "9f063951e688aa772f3b4b9d385b8e5a1353dd4cdd2e250e9c1c4ba90018046b365dc84578f9fdea430f49e0885dff364abd57c3694d5056182b08ffe708babe",
+      "fileHash": "5545893f38478369d164ef2dc3b24b2b0af4237c57076729d9972d279b4e8436332fd3953b150f69bb1735caf0a30066d6aef1f3abda5c408904e4f348db4e7e",
       "type": "Unknown",
-      "displayName": "Python 3.8.0 64-bit"
+      "displayName": "Python 3.8.2 64-bit"
     },
-    "ProposeLSBanner": false
+    "ProposeLSBanner": false,
+    "/usr/bin/python3.6.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3.6",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.6.9-final",
+          "major": 3,
+          "minor": 6,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.6.9-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "21b74dc55f674eae19b241724f5e006d0b37ea2e1d3181a9c170904f695cea903c2bab9fecb333c21dcd03b0b49b125eadb4eea7722a2d57d75d6a9147565c06"
+      },
+      "expiry": 1593253566267
+    },
+    "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+        "fileHash": "ca043b5f70630c099c37f1f0bb79ebf8e04bf8c00332ac4d17faaee3ef21415ce0c47e7e648f062e0387936db5aefdcb04788d157c2a44803fb08faf7277e540"
+      },
+      "expiry": 1593253566267
+    },
+    "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+        "fileHash": "cdebe9d246e03daa5fbd1ec48eb89159b30372a35566fd3da5ea793ba9453481e88d4663ef1c584f691603373ff4b4f5fdade7a79daaff3f5a8ac911d7023359"
+      },
+      "expiry": 1593253566266
+    },
+    "InterpreterAutoSeletionRule-environment": {
+      "architecture": 3,
+      "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+      "fileHash": "ca043b5f70630c099c37f1f0bb79ebf8e04bf8c00332ac4d17faaee3ef21415ce0c47e7e648f062e0387936db5aefdcb04788d157c2a44803fb08faf7277e540",
+      "type": "VirtualEnv"
+    },
+    "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+        "fileHash": "031b96581532792f73d2a1f6fcc62e9e6eaccbeb8b70f0efdc1d94ce9938d0c48146944ac9b5ddb7ad9dd4c422a582ab306e9c0dca788fb5cb207e890624b72c"
+      },
+      "expiry": 1593253566266
+    },
+    "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.2 64-bit ('virtualenv': venv)",
+        "hash": "cdebe9d246e03daa5fbd1ec48eb89159b30372a35566fd3da5ea793ba9453481e88d4663ef1c584f691603373ff4b4f5fdade7a79daaff3f5a8ac911d7023359-ce68da7cb9d3beee1855b29a4c3a041d"
+      },
+      "expiry": 1593271002725
+    },
+    "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ca043b5f70630c099c37f1f0bb79ebf8e04bf8c00332ac4d17faaee3ef21415ce0c47e7e648f062e0387936db5aefdcb04788d157c2a44803fb08faf7277e540"
+      },
+      "expiry": 1593253566281
+    },
+    "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "cdebe9d246e03daa5fbd1ec48eb89159b30372a35566fd3da5ea793ba9453481e88d4663ef1c584f691603373ff4b4f5fdade7a79daaff3f5a8ac911d7023359",
+        "info": {
+          "architecture": 3,
+          "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.2-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.2-final"
+          },
+          "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+          "fileHash": "cdebe9d246e03daa5fbd1ec48eb89159b30372a35566fd3da5ea793ba9453481e88d4663ef1c584f691603373ff4b4f5fdade7a79daaff3f5a8ac911d7023359",
+          "envName": "virtualenv",
+          "type": "Venv",
+          "displayName": "Python 3.8.2 64-bit ('virtualenv': venv)"
+        }
+      },
+      "expiry": 1593271002746
+    },
+    "/usr/bin/python3.6.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.6.9 64-bit",
+        "hash": "21b74dc55f674eae19b241724f5e006d0b37ea2e1d3181a9c170904f695cea903c2bab9fecb333c21dcd03b0b49b125eadb4eea7722a2d57d75d6a9147565c06-4fee5c7cba4537c96a56d716a302d12b"
+      },
+      "expiry": 1593253566300
+    },
+    "/usr/bin/python3.6.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "21b74dc55f674eae19b241724f5e006d0b37ea2e1d3181a9c170904f695cea903c2bab9fecb333c21dcd03b0b49b125eadb4eea7722a2d57d75d6a9147565c06",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3.6",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.6.9-final",
+            "major": 3,
+            "minor": 6,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.6.9-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "21b74dc55f674eae19b241724f5e006d0b37ea2e1d3181a9c170904f695cea903c2bab9fecb333c21dcd03b0b49b125eadb4eea7722a2d57d75d6a9147565c06",
+          "type": "Unknown",
+          "displayName": "Python 3.6.9 64-bit"
+        }
+      },
+      "expiry": 1593253566313
+    },
+    "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.2 64-bit ('virtualenv': venv)",
+        "hash": "ca043b5f70630c099c37f1f0bb79ebf8e04bf8c00332ac4d17faaee3ef21415ce0c47e7e648f062e0387936db5aefdcb04788d157c2a44803fb08faf7277e540-f226f2d14bea984324477c3d12575059"
+      },
+      "expiry": 1593253566317
+    },
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+      "fileHash": "ca043b5f70630c099c37f1f0bb79ebf8e04bf8c00332ac4d17faaee3ef21415ce0c47e7e648f062e0387936db5aefdcb04788d157c2a44803fb08faf7277e540",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "5545893f38478369d164ef2dc3b24b2b0af4237c57076729d9972d279b4e8436332fd3953b150f69bb1735caf0a30066d6aef1f3abda5c408904e4f348db4e7e",
+      "type": "Unknown",
+      "displayName": "Python 3.8.2 64-bit"
+    },
+    "InterpreterAutoSeletionRule-workspaceEnvs": {
+      "architecture": 3,
+      "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3.8",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+      "fileHash": "031b96581532792f73d2a1f6fcc62e9e6eaccbeb8b70f0efdc1d94ce9938d0c48146944ac9b5ddb7ad9dd4c422a582ab306e9c0dca788fb5cb207e890624b72c",
+      "envName": "virtualenv",
+      "type": "Venv"
+    }
   },
   "coc-python|/var/www/testsite2": {
     "INTERPRETERS_CACHE_v3_PipEnvService:45c0bd41882c546d9eb8965fd8d2acca": [],
@@ -965,5 +1132,184 @@
     },
     "INTERPRETERS_CACHE_v3_PipEnvService": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:e69cb3fda4f0956173ff38d0cf275fbf": [],
+    "SelectedPythonPath": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:e69cb3fda4f0956173ff38d0cf275fbf": [
+      {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+        "fileHash": "cdebe9d246e03daa5fbd1ec48eb89159b30372a35566fd3da5ea793ba9453481e88d4663ef1c584f691603373ff4b4f5fdade7a79daaff3f5a8ac911d7023359",
+        "envName": "virtualenv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+        "fileHash": "ca043b5f70630c099c37f1f0bb79ebf8e04bf8c00332ac4d17faaee3ef21415ce0c47e7e648f062e0387936db5aefdcb04788d157c2a44803fb08faf7277e540",
+        "envName": "virtualenv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+        "fileHash": "031b96581532792f73d2a1f6fcc62e9e6eaccbeb8b70f0efdc1d94ce9938d0c48146944ac9b5ddb7ad9dd4c422a582ab306e9c0dca788fb5cb207e890624b72c",
+        "envName": "virtualenv",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler": {
+      "architecture": 3,
+      "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3.8",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.2-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.2-final"
+      },
+      "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+      "fileHash": "031b96581532792f73d2a1f6fcc62e9e6eaccbeb8b70f0efdc1d94ce9938d0c48146944ac9b5ddb7ad9dd4c422a582ab306e9c0dca788fb5cb207e890624b72c",
+      "envName": "virtualenv",
+      "type": "Venv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+        "fileHash": "cdebe9d246e03daa5fbd1ec48eb89159b30372a35566fd3da5ea793ba9453481e88d4663ef1c584f691603373ff4b4f5fdade7a79daaff3f5a8ac911d7023359",
+        "envName": "virtualenv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+        "fileHash": "ca043b5f70630c099c37f1f0bb79ebf8e04bf8c00332ac4d17faaee3ef21415ce0c47e7e648f062e0387936db5aefdcb04788d157c2a44803fb08faf7277e540",
+        "envName": "virtualenv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/mnt/c/Users/Luc Koenderink/Programming/Python/VideoService/VideoScheduler/virtualenv",
+        "fileHash": "031b96581532792f73d2a1f6fcc62e9e6eaccbeb8b70f0efdc1d94ce9938d0c48146944ac9b5ddb7ad9dd4c422a582ab306e9c0dca788fb5cb207e890624b72c",
+        "envName": "virtualenv",
+        "type": "Venv"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_PipEnvService:1eb642821e1a89092fee5c1eeb598f1e": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:1eb642821e1a89092fee5c1eeb598f1e": []
   }
 }
