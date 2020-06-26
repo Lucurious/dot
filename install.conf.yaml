@@ -15,3 +15,4 @@
   - mv ~/.bashrc ~/.bashrc_old
   - mv ~/.bashrc_new ~/.bashrc
   - nvim +PlugInstall +qa
+  - git config --global mergetool.path nvim
