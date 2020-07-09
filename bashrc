@@ -118,8 +118,12 @@ fi
 
 alias tmux='tmux -2 -u'
 alias e='nvim'
+alias se='sudoedit'
 # To enable alias usage with sudo:
 alias sudo='sudo '
 
 #Rust installed binaries
 PATH=$PATH:/home/luc/.cargo/bin
+
+export VISUAL=nvim
+export EDITOR="$VISUAL"

@@ -87,5 +87,6 @@ set splitbelow
 set splitright
 
 tnoremap <Esc> <C-\><C-n>
+command W w
 
 "cnoremap w!! w !sudo tee >/dev/null %
