@@ -12,6 +12,7 @@
     "coc-r-lsp": ">=1.1.1",
     "coc-snippets": ">=2.1.28",
     "coc-tabnine": ">=1.2.2",
-    "coc-tsserver": ">=1.5.2"
+    "coc-tsserver": ">=1.5.2",
+    "coc-vetur": ">=1.1.11"
   }
 }
